@@ -3,7 +3,16 @@
     <div class="col-12 m-5 ">
         <div class="d-flex justify-content-between mb-3">
             <h2>Data Mahasiswa</h4>
-            <a href="<?php echo site_url() ?>index.php/mahasiswa/tambah" class="btn btn-primary" style="padding:5px; height: 34px">Tambah Mahasiswa</a>
+                <form action="" method="post">
+                    <div class="container me-0" style="width: 440px ;">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="cari data mahasiswa . .">
+                            <button class="btn btn-outline-success" type="button" id="button-addon2">cari</button>
+                        </div>
+                    </div>
+                </form>
+                <a href="<?php echo site_url() ?>index.php/mahasiswa/tambah" class="btn btn-primary" style="padding:5px; height: 38px">Tambah Mahasiswa</a>
+
         </div>
         <div class="card shadow-lg border-0 ">
             <div class="card-body ">
